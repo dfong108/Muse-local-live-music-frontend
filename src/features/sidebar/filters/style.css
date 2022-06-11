@@ -1,0 +1,43 @@
+.filters-container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+    /* font-style: oblique; */
+    font-weight:500;
+}
+
+span {
+    font-size: large;
+    font-size: 2rem;
+    letter-spacing: 4px;
+    margin: 10px auto;
+}
+
+.filter-events {
+    border: 3px solid black;
+}
+
+.filterByGenres {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4px;
+    max-width: 100%;
+    
+    color: beige;
+    /* font-size: 0.2rem; */
+}
+.genre-option {
+    min-width: fit-content;
+    /* border: 10px solid green;; */
+    opacity: 80%;
+    /* margin-left: 0; */
+}
+
+.genre-option:hover {
+    opacity: 100%;
+    color: white;
+    text-decoration: underline;
+    
+}

@@ -1,0 +1,12 @@
+.bandsContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    min-width: fit-content;
+    row-gap: 0.5rem;
+    column-gap: 0.25rem;
+    justify-content: space-between;
+    align-items: center;
+    /* max-width: 40vw; */
+
+    border: 2px solid lime;
+}

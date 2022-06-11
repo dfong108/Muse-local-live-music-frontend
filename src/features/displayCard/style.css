@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mochiy+Pop+P+One&display=swap');
+
+.displayCard {
+    height: 180px;
+    width: 180px; 
+    
+    padding: 0;
+
+    background-color: rgb(117, 117, 117);
+    border: 3px inset black;
+    border-radius: 0.5rem;
+    text-align: center;
+
+    text-decoration: none;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+    /* font-family:'Courier New', Courier, monospace; */
+    /* font-size: larger; */
+    font-style: oblique;
+    overflow: hidden;
+    cursor: pointer;
+}
+.displayCard h1 {
+    color: beige;
+}
+.genres-section {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    min-width: 100%;
+    font-size: small;
+    margin-bottom: 0;
+}
+
+/* ------------------- BANDS ------------------- */
+.bandCard {
+    opacity: 90%;
+    color: black;
+    background-color: peru;
+}
+.bandCard:hover {
+    opacity: 100%;
+    color: bisque;
+    border-color: bisque;
+}
+
+.likes {
+    display: flex;
+    margin-left: 70%;
+    align-items: center;
+    min-width: 100%;
+    min-height: fit-content;
+    font-size: 1.2rem;
+    color: rgb(217, 17, 17);
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.main-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    min-height: 80%;
+    margin-bottom: 0;
+}
+.bandCardInfo {
+    min-height: 50%;
+    margin: 0 auto;
+    align-self: center;
+}
+
+
+
+/* ------------------- EVENTS ------------------- */
+.eventCard {
+    opacity: 90%;
+    color: black;
+    background-color: rgb(27, 139, 167);
+}
+.eventCard:hover {
+    opacity: 100%;
+    color: black;
+    border-color: bisque;
+}
+
+.eventCard:nth-child(1n) {
+    background-color: rgba(61, 136, 197, 0.813);
+}
+.eventCard:nth-child(2n) {
+    background-color: rgba(77, 241, 203, 0.896)
+}
+.eventCard:nth-child(3n) {
+    background-color: rgb(219, 132, 212);
+}
+
+
+
+
+
+
+
+
+
+.genres {
+    display: flex;
+    min-width: 100%;
+    font-size: x-small;
+    font-weight: lighter;
+    
+}
+.genres ul {
+    list-style: none;
+    display: inline;
+}
+
+

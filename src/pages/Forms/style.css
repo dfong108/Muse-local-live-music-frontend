@@ -1,0 +1,69 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 0.5rem;
+    box-shadow: 0 0 0 10 0.5 black;
+    border: 2px solid black;
+    border-radius: 0.23rem;
+    background-color: whitesmoke;
+}
+input, textarea, select {
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 1rem;
+    min-width: 50%;
+}
+
+.members-section {
+    display: flex;
+    min-width: 80%;
+    margin: 10px;
+}
+
+.member-subsection {
+    display: flex;
+
+    color: red;
+}
+.memberRoles-select {
+    width: 100px;
+}
+.member-subsection input, select {
+    display: block;
+    min-width: 80%;
+    margin: 5px auto;
+}
+
+.genres-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.genre-option {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.genre-option input {
+    color: red;
+}
+
+.calendarType-container{
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.calendarType-option{
+    display: flex;
+    height: 20px;
+    margin-left: 0;
+    color: green;
+}
+#memberName {
+    width: 30%;
+    margin-right: 4rem;
+}

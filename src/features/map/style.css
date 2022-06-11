@@ -1,0 +1,26 @@
+.mapContainer {
+    display: block;
+    flex-direction: column;
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    /* justify-content: center; */
+    /* align-content: space-around; */
+    background: black;
+    border: 0.5rem inset black;
+}
+
+.mapControls {
+    position: absolute;
+    z-index: 1;
+    margin-bottom: 2em;
+    background-color: red;
+}
+
+.musicIcon {
+    max-height: 20px;
+    max-width: 10px;
+    font-size: x-small;
+}

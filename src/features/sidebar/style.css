@@ -1,0 +1,19 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    background-color: slateblue;
+    /* opacity: 60%; */
+    border: 2px solid purple;
+    height: 100vh;
+    margin-bottom: 4px;
+
+}
+
+.map-container {
+    position: relative;
+    height: 60%;
+
+    border: 2px solid black;
+}

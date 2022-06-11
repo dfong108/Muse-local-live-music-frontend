@@ -1,0 +1,7 @@
+.media-icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    max-width: 30%;
+    flex-wrap: wrap;
+}
