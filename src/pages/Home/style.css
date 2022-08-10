@@ -10,7 +10,7 @@
 
     background-color: black;
     color: white;
-    border: 2px solid rgba(120, 28, 120, 0.707);
+    /* border: 2px solid rgba(120, 28, 120, 0.707); */
 }
 
 .sub-container {
@@ -18,7 +18,7 @@
 
     display: grid;;
     background-color: orange;
-    border: 2px solid rgba(120, 28, 120, 0.707);
+    /* border: 2px solid rgba(120, 28, 120, 0.707); */
 }
 .section-title {
     grid-column: 1 / 3;
@@ -41,6 +41,7 @@
 .sub-2 {
     /* margin-top: 1rem; */
     background-color: rgb(92, 91, 91);
+    width: 100%
 }
 .displayCard-holder {
     /* width: minmax(25%, 100%); */

@@ -40,10 +40,12 @@ const Map = ({ events, defaultZoom, defaultCenter }) => {
 
     useEffect(() => {
         console.log(newSelectedEvent)
-        newSelectedEvent && panMap(newSelectedEvent)
-        // setSelected(newSelectedEvent)
-        // setTimeout(() => {
-        // }, 4000)
+        // newSelectedEvent && panMap(newSelectedEvent)
+        setSelected(newSelectedEvent)
+        
+        setTimeout(() => {
+            panMap(newSelectedEvent)
+        }, 2000)
     }, [selected])
 
     function panMap(event) {
